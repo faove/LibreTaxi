@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/txt_msj_espere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Espere por la Confirmación del Taxi" />
+
+    <TextView
+        android:id="@+id/txt_confirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btn_verubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:enabled="false"
+        android:text="Ver ubicación del taxi" />
+
+    <Button
+        android:id="@+id/btn_memonte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verubicacion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:enabled="false"
+        android:text="Ya aborde el taxi.." />
+    
+    <Button
+        android:id="@+id/btn_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Salir" />
+
+    
+</LinearLayout>

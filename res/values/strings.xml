@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LibreTaxi</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_registrese">Registráte Ahora</string>
+    <string name="title_activity_seleccionar_taxi">Seleccionar Taxi</string>
+    <string name="title_activity_esperar_confirmacion_taxi">Esperar Confirmacion</string>
+    <string name="title_activity_ver_taxi">VerTaxiActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

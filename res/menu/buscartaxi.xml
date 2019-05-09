@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/MnuOpc1" android:title="Actualizar Posición"
+          android:icon="@android:drawable/ic_dialog_map"></item>    
+    <item android:id="@+id/MnuOpc3" android:title="Salir"
+          android:icon="@android:drawable/ic_lock_power_off"></item>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:minHeight="64dp">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"/>
+    <TextView
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_width="97dp"
+            android:layout_height="32dp"
+            android:id="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="66dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"/>
+    <TextView android:id="@+id/conductor"
+			android:textSize="14sp" 
+			android:textStyle="bold" 
+			android:textColor="#FFFF00" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/imageView"/>
+	<TextView android:id="@+id/conductorTelefono"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_below="@id/conductor"
+			android:layout_toRightOf="@id/imageView" />
+	<TextView android:id="@+id/conductorfecha" 
+			android:textSize="19sp" 
+			android:textStyle="bold" 
+			android:textColor="#32cd32" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_below="@id/conductorTelefono"
+			android:layout_toRightOf="@id/imageView" />
+</RelativeLayout>

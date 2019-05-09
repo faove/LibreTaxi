@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_login">Registrese</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirpassword">Confirmar Password</string>
+    <string name="prompt_telefono">Telefono</string>
+    <string name="action_sign_in_register"><b>Iniciar</b> o registrese</string>
+    <string name="action_register"><b>Regístrate</b></string>
+    <string name="action_crear"><b>Crear</b></string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="action_forgot_password">Recuperar contraseña perdida</string>
+    <string name="login_progress_signing_in">Iniciar&#8230;</string>
+    <string name="error_invalid_email">Esta direccion de correo es invalida</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_equal_password">La contraseñas no son iguales</string>
+    <string name="error_field_required">Este campo es requerido</string>
+
+</resources>
