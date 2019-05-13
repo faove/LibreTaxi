@@ -53,10 +53,7 @@
         <activity android:name="com.libre.taxi.EnviarData" >
         </activity>
 
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCXo6jIWpmR-4auLmH6WRMCbAqpRdBx238" />
-
+        
         <activity
             android:name="com.libre.taxi.LoginActivity"
             android:label="@string/title_activity_login"
